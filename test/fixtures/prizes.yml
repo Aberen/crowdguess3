@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  answer: 1
+  won_by: MyString
+  date_won: 2023-09-11 20:11:25
+
+two:
+  name: MyString
+  answer: 1
+  won_by: MyString
+  date_won: 2023-09-11 20:11:25
