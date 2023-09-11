@@ -1,0 +1,11 @@
+<div class="prize-entry w-full flex p-4">
+    <div class="left flex-1">
+        <p><%= link_to prize.name, prize_path(prize), class: 'flex-1' %></p>
+        <span class="text-xs"><%= prize.answer %></span>
+    </div>
+    <div class="right flex-1 text-right align-middle">
+        <%= link_to 'Edit', edit_prize_path(prize) %>
+        /
+        <%= link_to 'Delete', prize_path(prize), method: :delete, data: { confirm: 'Are you sure?' } %>
+    </div>
+</div>

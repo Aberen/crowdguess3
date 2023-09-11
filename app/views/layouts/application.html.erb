@@ -10,6 +10,9 @@
     <%= vite_javascript_tag 'application' %>
   </head>
   <body>
-    <%= yield %>
+    <%= render 'shared/header' %>
+    <div class="container mx-auto mt-6">
+      <%= yield %>
+    </div>
   </body>
 </html>
