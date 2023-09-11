@@ -1,7 +1,9 @@
-<h1 class="text-4xl font-extrabold uppercase">All prizes</h1>
+<div class="action-container flex place-content-between mb-8">
+    <h1 class="text-4xl font-extrabold uppercase">All prizes</h1>
 
-<div class="action-container">
-    <%= link_to 'Add prize', new_prize_path %>
+    <div class="action-container">
+        <%= button('Add prize', new_prize_path) %>
+    </div>
 </div>
 
 <div class="prizes-container grid grid-cols-1 divide-y">
